@@ -1,0 +1,233 @@
+[
+  {
+    "section": "Getting Started | البداية",
+    "question": "What is StudyGrid?",
+    "question_ar": "إيه هو StudyGrid؟",
+    "answer": "StudyGrid is a mobile app that combines group chat, class materials, shared and personal to-do lists, and smart notifications — all in one place for students.",
+    "answer_ar": "StudyGrid هو تطبيق موبايل بيجمع شات الجروبات، المواد الدراسية، قوائم المهام المشتركة والشخصية، والإشعارات الذكية — كل ده في مكان واحد للطلاب."
+  },
+  {
+    "section": "Getting Started | البداية",
+    "question": "How do I create an account?",
+    "question_ar": "إزاي أعمل حساب؟",
+    "answer": "Open StudyGrid and tap Sign Up. Enter your name, email, phone number, and password to create your account.",
+    "answer_ar": "افتح StudyGrid واضغط على Sign Up. ادخل اسمك، إيميلك، رقم تليفونك، والباسورد عشان تعمل حساب."
+  },
+  {
+    "section": "Getting Started | البداية",
+    "question": "What information do I need to register?",
+    "question_ar": "إيه البيانات المطلوبة للتسجيل؟",
+    "answer": "You need your name, email address, phone number, and a password.",
+    "answer_ar": "محتاج اسمك، إيميلك، رقم تليفونك، وباسورد."
+  },
+  {
+    "section": "Getting Started | البداية",
+    "question": "What do I see after logging in?",
+    "question_ar": "إيه اللي بيظهرلي بعد تسجيل الدخول؟",
+    "answer": "After logging in you land on the Groups screen, which shows a welcome banner with your unread message count, a search bar, and a list of your groups. The bottom navigation has 5 tabs: Home, To-Do, Groups, Alerts, and Settings.",
+    "answer_ar": "بعد تسجيل الدخول هتشوف شاشة الجروبات، فيها بانر ترحيب بعدد رسائلك الغير مقروءة، بار بحث، وقائمة جروباتك. الـ Navigation التحتاني فيه 5 تابات: Home، To-Do، Groups، Alerts، و Settings."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "How do I create a new group?",
+    "question_ar": "إزاي أعمل جروب جديد؟",
+    "answer": "Tap the Add Group button on the Groups screen. Choose 'Create New Group', then enter the group name and description. You can add a cover image later.",
+    "answer_ar": "اضغط على زرار Add Group في شاشة الجروبات. اختار 'إنشاء جروب جديد'، وادخل اسم الجروب والوصف. تقدر تضيف صورة الغلاف بعدين."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "How do I join an existing group?",
+    "question_ar": "إزاي أنضم لجروب موجود؟",
+    "answer": "Tap Add Group and choose 'Join Group'. Enter the invite code shared by the group admin to join.",
+    "answer_ar": "اضغط على Add Group واختار 'الانضمام لجروب'. ادخل الكود اللي بعته ليك الأدمن عشان تنضم."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "What is the invite code?",
+    "question_ar": "إيه هو الـ invite code؟",
+    "answer": "The invite code is a unique code generated for each group. The admin can find it under More > Invite Code and share it with others to let them join the group.",
+    "answer_ar": "الـ invite code هو كود فريد بيتولد لكل جروب. الأدمن يلاقيه في More > Invite Code ويبعته للناس عشان ينضموا للجروب."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "What information is shown for each group in the list?",
+    "question_ar": "إيه المعلومات اللي بتظهر لكل جروب في القائمة؟",
+    "answer": "Each group card shows the group name, your role (admin or member), the group description, number of members, and unread message count.",
+    "answer_ar": "كل كارت جروب بيظهر اسم الجروب، دورك فيه (أدمن أو ميمبر)، وصف الجروب، عدد الأعضاء، وعدد الرسائل الغير مقروءة."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "What tabs are inside a group?",
+    "question_ar": "إيه التابات اللي جوه الجروب؟",
+    "answer": "Each group has 4 tabs: Chat, Files, To-Do, and More.",
+    "answer_ar": "كل جروب فيه 4 تابات: Chat، Files، To-Do، و More."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "What is in the More tab inside a group?",
+    "question_ar": "إيه اللي في تاب More جوه الجروب؟",
+    "answer": "The More tab has two sections. Admin Tools (visible to admins only): Edit Group Details, Add Members, Invite Code. General (visible to everyone): Members list, Notifications Settings, and Leave Group.",
+    "answer_ar": "تاب More فيه قسمين. Admin Tools (للأدمن بس): Edit Group Details، Add Members، Invite Code. General (للكل): قائمة الأعضاء، Notifications Settings، و Leave Group."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "How do I leave a group?",
+    "question_ar": "إزاي أخرج من جروب؟",
+    "answer": "Go to the group, tap More, then tap Leave Group.",
+    "answer_ar": "روح للجروب، اضغط More، وبعدين اضغط Leave Group."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "What are the roles in a group?",
+    "question_ar": "إيه الأدوار الموجودة في الجروب؟",
+    "answer": "There are two roles: Admin and Member. Admins can edit group details, add members, upload files, manage tasks, and access the invite code. Members can chat, view files, and track tasks assigned to them.",
+    "answer_ar": "في دورين: Admin وMember. الأدمن يقدر يعدل تفاصيل الجروب، يضيف أعضاء، يرفع ملفات، يدير المهام، ويوصل للـ invite code. الميمبر يقدر يتشات، يشوف الملفات، ويتابع المهام المعينة عليه."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "Can a group have more than one admin?",
+    "question_ar": "ممكن يكون في أكتر من أدمن في الجروب؟",
+    "answer": "Yes, a group can have multiple admins.",
+    "answer_ar": "أيوه، الجروب يقدر يكون فيه أكتر من أدمن."
+  },
+  {
+    "section": "Groups | الجروبات",
+    "question": "How do I edit group details?",
+    "question_ar": "إزاي أعدل تفاصيل الجروب؟",
+    "answer": "Only admins can edit group details. Go to More > Edit Group Details to change the group name, description, or cover image.",
+    "answer_ar": "الأدمن بس هو اللي يقدر يعدل تفاصيل الجروب. روح لـ More > Edit Group Details عشان تغير الاسم أو الوصف أو صورة الغلاف."
+  },
+  {
+    "section": "Chat | الشات",
+    "question": "What can I send in the group chat?",
+    "question_ar": "إيه اللي أقدر أبعته في شات الجروب؟",
+    "answer": "You can send text messages, images, voice messages, and files in the group chat.",
+    "answer_ar": "تقدر تبعت رسائل نصية، صور، رسائل صوتية، وملفات في شات الجروب."
+  },
+  {
+    "section": "Chat | الشات",
+    "question": "Can all members send messages in the chat?",
+    "question_ar": "هل كل الأعضاء يقدروا يبعتوا رسائل في الشات؟",
+    "answer": "Yes, all group members including admins and regular members can send messages in the chat.",
+    "answer_ar": "أيوه، كل أعضاء الجروب سواء أدمن أو ميمبر يقدروا يبعتوا رسائل في الشات."
+  },
+  {
+    "section": "Chat | الشات",
+    "question": "Will I get notified about new messages?",
+    "question_ar": "هل هتيجيلي إشعار لو في رسالة جديدة؟",
+    "answer": "Yes, you will receive a push notification when someone sends a new message in your group.",
+    "answer_ar": "أيوه، هتوصلك إشعار لما حد يبعت رسالة جديدة في جروبك."
+  },
+  {
+    "section": "Files | الملفات",
+    "question": "Who can upload files to a group?",
+    "question_ar": "مين يقدر يرفع ملفات للجروب؟",
+    "answer": "Only admins can upload files to the group.",
+    "answer_ar": "الأدمن بس هو اللي يقدر يرفع ملفات للجروب."
+  },
+  {
+    "section": "Files | الملفات",
+    "question": "What file types can be uploaded?",
+    "question_ar": "إيه أنواع الملفات اللي ممكن ترفعها؟",
+    "answer": "Admins can upload PDF, DOC, PPT, images, and video files.",
+    "answer_ar": "الأدمن يقدر يرفع ملفات PDF، DOC، PPT، صور، وفيديوهات."
+  },
+  {
+    "section": "Files | الملفات",
+    "question": "Can members download files?",
+    "question_ar": "هل الأعضاء يقدروا ينزلوا الملفات؟",
+    "answer": "Yes, all group members can view and download files uploaded by the admin.",
+    "answer_ar": "أيوه، كل أعضاء الجروب يقدروا يشوفوا وينزلوا الملفات اللي رفعها الأدمن."
+  },
+  {
+    "section": "Files | الملفات",
+    "question": "Will I get notified when a new file is uploaded?",
+    "question_ar": "هل هتيجيلي إشعار لو في ملف جديد اترفع؟",
+    "answer": "Yes, you will receive a notification when a new file is uploaded to your group.",
+    "answer_ar": "أيوه، هتوصلك إشعار لما ملف جديد يترفع في جروبك."
+  },
+  {
+    "section": "Group To-Do | مهام الجروب",
+    "question": "Who can add tasks in the group To-Do?",
+    "question_ar": "مين يقدر يضيف مهام في To-Do الجروب؟",
+    "answer": "Only admins can add, edit, or delete group tasks.",
+    "answer_ar": "الأدمن بس هو اللي يقدر يضيف أو يعدل أو يحذف مهام الجروب."
+  },
+  {
+    "section": "Group To-Do | مهام الجروب",
+    "question": "What can a member do with group tasks?",
+    "question_ar": "إيه اللي يقدر يعمله الميمبر في مهام الجروب؟",
+    "answer": "Members can only view and track tasks assigned to them. They cannot add, edit, or delete tasks.",
+    "answer_ar": "الميمبر يقدر بس يشوف ويتابع المهام المعينة عليه. مش يقدر يضيف أو يعدل أو يحذف أي مهمة."
+  },
+  {
+    "section": "Group To-Do | مهام الجروب",
+    "question": "Can the admin assign a task to a specific member?",
+    "question_ar": "هل الأدمن يقدر يعين مهمة على عضو معين؟",
+    "answer": "Yes, admins can assign tasks to specific group members.",
+    "answer_ar": "أيوه، الأدمن يقدر يعين أي مهمة على عضو معين في الجروب."
+  },
+  {
+    "section": "Group To-Do | مهام الجروب",
+    "question": "What priority levels are available for group tasks?",
+    "question_ar": "إيه مستويات الأولوية المتاحة للمهام؟",
+    "answer": "Tasks can be set to Low, Medium, or High priority.",
+    "answer_ar": "المهام ليها 3 مستويات أولوية: Low (منخفض)، Medium (متوسط)، High (عالي)."
+  },
+  {
+    "section": "Group To-Do | مهام الجروب",
+    "question": "Will I get notified when a task is assigned to me?",
+    "question_ar": "هل هتيجيلي إشعار لو اتعينت عليا مهمة؟",
+    "answer": "Yes, you will receive a notification when a new task is assigned to you.",
+    "answer_ar": "أيوه، هتوصلك إشعار لما مهمة جديدة تتعين عليك."
+  },
+  {
+    "section": "Personal To-Do | المهام الشخصية",
+    "question": "What is the Personal To-Do?",
+    "question_ar": "إيه هو الـ Personal To-Do؟",
+    "answer": "The Personal To-Do is a private task manager only visible to you. It is completely separate from group tasks.",
+    "answer_ar": "الـ Personal To-Do هو مدير مهام خاص بيك بس، مش حد تاني يشوفه. منفصل تماماً عن مهام الجروبات."
+  },
+  {
+    "section": "Personal To-Do | المهام الشخصية",
+    "question": "What can I do in my Personal To-Do?",
+    "question_ar": "إيه اللي أقدر أعمله في المهام الشخصية؟",
+    "answer": "You can add private tasks, set priority (Low, Medium, High), set a due date, update the task status, and add subtasks to any task.",
+    "answer_ar": "تقدر تضيف مهام خاصة، تحدد الأولوية (منخفض، متوسط، عالي)، تحدد تاريخ التسليم، تغير status المهمة، وتضيف subtasks لأي مهمة."
+  },
+  {
+    "section": "Personal To-Do | المهام الشخصية",
+    "question": "Can other members see my personal tasks?",
+    "question_ar": "هل الأعضاء التانيين يشوفوا مهامي الشخصية؟",
+    "answer": "No. Personal tasks are completely private and only visible to you.",
+    "answer_ar": "لأ. المهام الشخصية خاصة بيك بس ومش حد تاني يشوفها."
+  },
+  {
+    "section": "Personal To-Do | المهام الشخصية",
+    "question": "What is a subtask?",
+    "question_ar": "إيه هو الـ subtask؟",
+    "answer": "A subtask is a smaller step inside a personal task. You can break down any task into multiple subtasks to track progress better.",
+    "answer_ar": "الـ subtask هو خطوة أصغر جوه المهمة الشخصية. تقدر تقسم أي مهمة لـ subtasks عشان تتابع التقدم بشكل أفضل."
+  },
+  {
+    "section": "Notifications | الإشعارات",
+    "question": "What types of notifications does StudyGrid send?",
+    "question_ar": "إيه أنواع الإشعارات اللي بيبعتها StudyGrid؟",
+    "answer": "StudyGrid sends three types of notifications: new chat messages in your groups, new files uploaded to your groups, and new tasks assigned to you.",
+    "answer_ar": "StudyGrid بيبعت 3 أنواع إشعارات: رسائل شات جديدة في جروباتك، ملفات جديدة اترفعت في جروباتك، ومهام جديدة اتعينت عليك."
+  },
+  {
+    "section": "Notifications | الإشعارات",
+    "question": "Where can I see all my notifications?",
+    "question_ar": "فين أشوف كل إشعاراتي؟",
+    "answer": "All notifications appear in the Alerts tab in the bottom navigation bar.",
+    "answer_ar": "كل الإشعارات بتظهر في تاب Alerts في الـ Navigation التحتاني."
+  },
+  {
+    "section": "Notifications | الإشعارات",
+    "question": "Can I control which notifications I receive?",
+    "question_ar": "هل أقدر أتحكم في الإشعارات اللي بتيجيلي؟",
+    "answer": "Yes. Go to a group, tap More, then Notifications Settings to control notifications for that group.",
+    "answer_ar": "أيوه. روح للجروب، اضغط More، وبعدين Notifications Settings عشان تتحكم في إشعارات الجروب ده."
+  }
+]

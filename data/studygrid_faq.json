@@ -1,0 +1,167 @@
+[
+  {
+    "section": "Getting Started",
+    "question": "What is StudyGrid?",
+    "answer": "StudyGrid is a mobile app that combines group chat, class materials, shared and personal to-do lists, and smart notifications — all in one place for students."
+  },
+  {
+    "section": "Getting Started",
+    "question": "How do I create an account?",
+    "answer": "Open StudyGrid and tap Sign Up. Enter your name, email, phone number, and password to create your account."
+  },
+  {
+    "section": "Getting Started",
+    "question": "What information do I need to register?",
+    "answer": "You need your name, email address, phone number, and a password."
+  },
+  {
+    "section": "Getting Started",
+    "question": "What do I see after logging in?",
+    "answer": "After logging in you land on the Groups screen, which shows a welcome banner with your unread message count, a search bar, and a list of your groups. The bottom navigation has 5 tabs: Home, To-Do, Groups, Alerts, and Settings."
+  },
+  {
+    "section": "Groups",
+    "question": "How do I create a new group?",
+    "answer": "Tap the Add Group button on the Groups screen. Choose 'Create New Group', then enter the group name and description. You can add a cover image later."
+  },
+  {
+    "section": "Groups",
+    "question": "How do I join an existing group?",
+    "answer": "Tap Add Group and choose 'Join Group'. Enter the invite code shared by the group admin to join."
+  },
+  {
+    "section": "Groups",
+    "question": "What is the invite code?",
+    "answer": "The invite code is a unique code generated for each group. The admin can find it under More > Invite Code and share it with others to let them join the group."
+  },
+  {
+    "section": "Groups",
+    "question": "What information is shown for each group in the list?",
+    "answer": "Each group card shows the group name, your role (admin or member), the group description, number of members, and unread message count."
+  },
+  {
+    "section": "Groups",
+    "question": "What tabs are inside a group?",
+    "answer": "Each group has 4 tabs: Chat, Files, To-Do, and More."
+  },
+  {
+    "section": "Groups",
+    "question": "What is in the More tab inside a group?",
+    "answer": "The More tab has two sections. Admin Tools (visible to admins only): Edit Group Details, Add Members, Invite Code. General (visible to everyone): Members list, Notifications Settings, and Leave Group."
+  },
+  {
+    "section": "Groups",
+    "question": "How do I leave a group?",
+    "answer": "Go to the group, tap More, then tap Leave Group."
+  },
+  {
+    "section": "Groups",
+    "question": "What are the roles in a group?",
+    "answer": "There are two roles: Admin and Member. Admins can edit group details, add members, upload files, manage tasks, and access the invite code. Members can chat, view files, and track tasks assigned to them."
+  },
+  {
+    "section": "Groups",
+    "question": "Can a group have more than one admin?",
+    "answer": "Yes, a group can have multiple admins."
+  },
+  {
+    "section": "Groups",
+    "question": "How do I edit group details?",
+    "answer": "Only admins can edit group details. Go to More > Edit Group Details to change the group name, description, or cover image."
+  },
+  {
+    "section": "Chat",
+    "question": "What can I send in the group chat?",
+    "answer": "You can send text messages, images, voice messages, and files in the group chat."
+  },
+  {
+    "section": "Chat",
+    "question": "Can all members send messages in the chat?",
+    "answer": "Yes, all group members including admins and regular members can send messages in the chat."
+  },
+  {
+    "section": "Chat",
+    "question": "Will I get notified about new messages?",
+    "answer": "Yes, you will receive a push notification when someone sends a new message in your group."
+  },
+  {
+    "section": "Files",
+    "question": "Who can upload files to a group?",
+    "answer": "Only admins can upload files to the group."
+  },
+  {
+    "section": "Files",
+    "question": "What file types can be uploaded?",
+    "answer": "Admins can upload PDF, DOC, PPT, images, and video files."
+  },
+  {
+    "section": "Files",
+    "question": "Can members download files?",
+    "answer": "Yes, all group members can view and download files uploaded by the admin."
+  },
+  {
+    "section": "Files",
+    "question": "Will I get notified when a new file is uploaded?",
+    "answer": "Yes, you will receive a notification when a new file is uploaded to your group."
+  },
+  {
+    "section": "Group To-Do",
+    "question": "Who can add tasks in the group To-Do?",
+    "answer": "Only admins can add, edit, or delete group tasks."
+  },
+  {
+    "section": "Group To-Do",
+    "question": "What can a member do with group tasks?",
+    "answer": "Members can only view and track tasks assigned to them. They cannot add, edit, or delete tasks."
+  },
+  {
+    "section": "Group To-Do",
+    "question": "Can the admin assign a task to a specific member?",
+    "answer": "Yes, admins can assign tasks to specific group members."
+  },
+  {
+    "section": "Group To-Do",
+    "question": "What priority levels are available for group tasks?",
+    "answer": "Tasks can be set to Low, Medium, or High priority."
+  },
+  {
+    "section": "Group To-Do",
+    "question": "Will I get notified when a task is assigned to me?",
+    "answer": "Yes, you will receive a notification when a new task is assigned to you."
+  },
+  {
+    "section": "Personal To-Do",
+    "question": "What is the Personal To-Do?",
+    "answer": "The Personal To-Do is a private task manager only visible to you. It is completely separate from group tasks."
+  },
+  {
+    "section": "Personal To-Do",
+    "question": "What can I do in my Personal To-Do?",
+    "answer": "You can add private tasks, set priority (Low, Medium, High), set a due date, update the task status, and add subtasks to any task."
+  },
+  {
+    "section": "Personal To-Do",
+    "question": "Can other members see my personal tasks?",
+    "answer": "No. Personal tasks are completely private and only visible to you."
+  },
+  {
+    "section": "Personal To-Do",
+    "question": "What is a subtask?",
+    "answer": "A subtask is a smaller step inside a personal task. You can break down any task into multiple subtasks to track progress better."
+  },
+  {
+    "section": "Notifications",
+    "question": "What types of notifications does StudyGrid send?",
+    "answer": "StudyGrid sends three types of notifications: new chat messages in your groups, new files uploaded to your groups, and new tasks assigned to you."
+  },
+  {
+    "section": "Notifications",
+    "question": "Where can I see all my notifications?",
+    "answer": "All notifications appear in the Alerts tab in the bottom navigation bar."
+  },
+  {
+    "section": "Notifications",
+    "question": "Can I control which notifications I receive?",
+    "answer": "Yes. Go to a group, tap More, then Notifications Settings to control notifications for that group."
+  }
+]
