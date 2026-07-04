@@ -2,11 +2,11 @@
 
 # GridMind.
 
-AI Copilot for the StudyGrid app, built with Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs).
+- AI Copilot for the StudyGrid app, built with Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs).
 
-GridMind is an AI-powered copilot designed for the StudyGrid application. It retrieves relevant information from a knowledge base and uses a Large Language Model (LLM) to generate accurate, context-aware answers.
+- GridMind is an AI-powered copilot designed for the StudyGrid application. It retrieves relevant information from a knowledge base and uses a Large Language Model (LLM) to generate       accurate, context-aware answers.
 
-This project is being developed step by step while studying the LLM Zoomcamp by DataTalksClub. Rather than simply reproducing the course notebooks, each concept is applied to a real-world project that evolves throughout the learning journey.
+- This project is being developed step by step while studying the LLM Zoomcamp by DataTalksClub. Rather than simply reproducing the course notebooks, each concept is applied to a real-world project that evolves throughout the learning journey.
 
 ---
 
