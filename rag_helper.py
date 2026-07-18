@@ -87,7 +87,7 @@ class RAGB:
     def rag(self,question):
      search_results = self.search(question)
      prompt = self.build_prompt(question, search_results)
-     answer = self.llm(INSTRUCTIONS, prompt)
+     answer = self.llm(self.instructions, prompt)
      return answer
 
     
