@@ -22,7 +22,7 @@ Context:
 '''
 
 #Now the class: RAGBase
-class RAGB:
+class RAGHelper:
 
     def __init__(
         self,
@@ -61,7 +61,7 @@ class RAGB:
         lines.append('A_AR: ' + doc['answer_ar'])
         lines.append('')
      return '\n'.join(lines).strip()
- 
+    '''
     def build_prompt(self, question, search_results):
         context = self.build_context(search_results)
         prompt = self.prompt_template.format(
@@ -71,18 +71,6 @@ class RAGB:
     
         return prompt.strip()
     
-   # The llm method sends the prompt to the LLM:
-    def llm(self, instructions, user_prompt):
-        message_history = [
-            {'role': 'system', 'content': instructions},
-            {'role': 'user', 'content': user_prompt}
-       ]
-        response = self.openai_client.chat.completions.create(
-        model=self.model,
-        messages=message_history
-        )
-        return response.choices[0].message.content
-    
    #rag method wires it all together:
     def rag(self,question):
      search_results = self.search(question)
@@ -90,4 +78,4 @@ class RAGB:
      answer = self.llm(self.instructions, prompt)
      return answer
 
-    
+    '''
