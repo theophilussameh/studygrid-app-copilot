@@ -1,7 +1,6 @@
-search_tool = {
-
+search_tool_schema = {
     "type": "function",
-    "function": { 
+    "function": {
         "name": "search",
         "description": (
             "Search the StudyGrid knowledge base to answer questions "
@@ -22,4 +21,6 @@ search_tool = {
     }
 }
 
-TOOLS = [search_tool]
+# Add new tool schemas here as the project grows, e.g. weather_tool_schema,
+# calendar_tool_schema... then register them in TOOL_SCHEMAS below.
+TOOL_SCHEMAS = [search_tool_schema]
