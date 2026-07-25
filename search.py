@@ -1,14 +1,15 @@
-class SearchTool:
+from base_tool import BaseTool
+from context import build_context
 
-    def __init__(self, rag_helper):
-        self.rag = rag_helper
 
-    def search(self, query):
+class SearchTool(BaseTool):
 
+    name = "search"
+
+    def __init__(self, retriever):
+        self.rag = retriever
+
+    def execute(self, query):
         search_results = self.rag.search(query)
-
-        context = self.rag.build_context(search_results)
-
-        return {
-            "context": context
-        }
+        context = build_context(search_results)
+        return {"context": context}
