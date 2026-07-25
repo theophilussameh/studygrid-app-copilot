@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# build_context and build_prompt
+
+
+>>>>>>> origin/main
 def build_context(search_results):
     lines = []
     for doc in search_results:

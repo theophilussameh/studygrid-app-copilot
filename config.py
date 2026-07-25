@@ -26,3 +26,4 @@ agent = GridMindAgent(
     openai_client=openai_client,
     model="openai/gpt-oss-20b"
 )
+
