@@ -1,4 +1,3 @@
-
 from tools import TOOL_SCHEMAS
 from search import SearchTool
 import json
@@ -15,16 +14,12 @@ class GridMindAgent:
     ):
 
         self.rag = retriever
-
-        self.search_tool = SearchTool(retriever)
-
         self.openai_client = openai_client
         self.model = model
         self.max_iterations = max_iterations
 
         tool_instances = [SearchTool(retriever)]
         self.tools = {tool.name: tool for tool in tool_instances}
-
 
     def chat(self, question):
 
@@ -41,11 +36,7 @@ class GridMindAgent:
 
         it = 1
 
-
         while it <= self.max_iterations:
-
-            response = self.llm(messages, tools=TOOL_SCHEMAS)
-
 
             print(f"iteration #{it}...")
 
@@ -95,8 +86,6 @@ class GridMindAgent:
         response = self.llm(messages, tools=None)
         return response.choices[0].message.content
 
-
-
     # The llm method sends the prompt to the LLM:
     def llm(self, messages, tools=None):
 
@@ -114,18 +103,11 @@ class GridMindAgent:
         if tool is None:
             return json.dumps({"error": f"Unknown tool: {tool_name}"})
 
-    
-    def execute_tool(self, tool_call):
-        tool_name = tool_call.function.name
-        tool = self.tools.get(tool_name)
- 
-        if tool is None:
-            return json.dumps({"error": f"Unknown tool: {tool_name}"})
- 
         try:
             arguments = json.loads(tool_call.function.arguments)
         except json.JSONDecodeError:
             return json.dumps({"error": "Invalid arguments JSON from the model."})
+
         try:
             result = tool.execute(**arguments)
         except Exception as exc:
@@ -134,4 +116,4 @@ class GridMindAgent:
             return json.dumps({"error": str(exc)})
 
         return json.dumps(result, indent=2)
-
+    
