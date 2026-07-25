@@ -1,6 +1,6 @@
 # instructions && userprompt
 INSTRUCTIONS = '''
-<<<<<<< HEAD
+
 You're the GridMind teaching assistant for the StudyGrid application.
 You're given a question from a StudyGrid user and your task is to
 answer it.
@@ -48,8 +48,4 @@ Question:
 
 Context:
 {context}
-<<<<<<< HEAD
 '''
-=======
-'''
->>>>>>> origin/main
