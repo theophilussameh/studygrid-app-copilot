@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
 from tools import TOOL_SCHEMAS
 from search import SearchTool
 import json
@@ -18,21 +15,16 @@ class GridMindAgent:
     ):
 
         self.rag = retriever
-<<<<<<< HEAD
-=======
+
         self.search_tool = SearchTool(retriever)
->>>>>>> origin/main
+
         self.openai_client = openai_client
         self.model = model
         self.max_iterations = max_iterations
 
         tool_instances = [SearchTool(retriever)]
         self.tools = {tool.name: tool for tool in tool_instances}
-<<<<<<< HEAD
-=======
- 
-    
->>>>>>> origin/main
+
 
     def chat(self, question):
 
@@ -49,11 +41,11 @@ class GridMindAgent:
 
         it = 1
 
-<<<<<<< HEAD
+
         while it <= self.max_iterations:
-=======
-               response = self.llm(messages, tools=TOOL_SCHEMAS)
->>>>>>> origin/main
+
+            response = self.llm(messages, tools=TOOL_SCHEMAS)
+
 
             print(f"iteration #{it}...")
 
@@ -108,7 +100,6 @@ class GridMindAgent:
     # The llm method sends the prompt to the LLM:
     def llm(self, messages, tools=None):
 
-<<<<<<< HEAD
         response = self.openai_client.chat.completions.create(
             model=self.model,
             messages=messages,
@@ -123,7 +114,6 @@ class GridMindAgent:
         if tool is None:
             return json.dumps({"error": f"Unknown tool: {tool_name}"})
 
-=======
     
     def execute_tool(self, tool_call):
         tool_name = tool_call.function.name
@@ -132,31 +122,16 @@ class GridMindAgent:
         if tool is None:
             return json.dumps({"error": f"Unknown tool: {tool_name}"})
  
->>>>>>> origin/main
         try:
             arguments = json.loads(tool_call.function.arguments)
         except json.JSONDecodeError:
             return json.dumps({"error": "Invalid arguments JSON from the model."})
-<<<<<<< HEAD
-
-=======
- 
->>>>>>> origin/main
         try:
             result = tool.execute(**arguments)
         except Exception as exc:
             # Feed the error back to the model instead of crashing —
             # lets the model see what went wrong and try again.
             return json.dumps({"error": str(exc)})
-<<<<<<< HEAD
 
-<<<<<<< HEAD
         return json.dumps(result, indent=2)
-=======
-        return json.dumps(result, indent=2)
->>>>>>> 647452c (Restore retriever improvements from stash)
-=======
- 
-        return json.dumps(result, indent=2)
- 
->>>>>>> origin/main
+
