@@ -1,6 +1,6 @@
 from prompts import INSTRUCTIONS, USER_PROMPT_TEMPLATE
 
-#Now the class: RAGBase
+
 class Retriever:
 
     def __init__(
@@ -20,16 +20,11 @@ class Retriever:
 
    # search
 
-    def search(self, question, num_results=4):
-
-     def search(self, question, num_results=5):
-
+    def search(self, question, num_results=5):
         boost_dict = {"question": 3.0, "answer": 0.5}
-
         return self.index.search(
-            question,
-            num_results=num_results,
-            boost_dict=boost_dict,
-           
-        )
+        question,
+        num_results=num_results,
+        boost_dict=boost_dict,
+    )
    
