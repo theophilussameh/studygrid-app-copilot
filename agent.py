@@ -118,4 +118,8 @@ class GridMindAgent:
             # lets the model see what went wrong and try again.
             return json.dumps({"error": str(exc)})
 
+<<<<<<< HEAD
         return json.dumps(result, indent=2)
+=======
+        return json.dumps(result, indent=2)
+>>>>>>> 647452c (Restore retriever improvements from stash)
