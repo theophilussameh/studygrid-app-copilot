@@ -4,7 +4,7 @@ from minsearch import Index
 
 def load_faq_data():
    import json
-   with open("studygrid-app-copilot\data\studygrid_faq_bilingual.json", "r", encoding="utf-8") as f:
+   with open("data/studygrid_faq_bilingual.json", "r", encoding="utf-8") as f:
     data = json.load(f)
     documents = []
     documents.extend(data)
