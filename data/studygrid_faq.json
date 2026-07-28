@@ -35,6 +35,11 @@
     "answer": "The invite code is a unique code generated for each group. The admin can find it under More > Invite Code and share it with others to let them join the group."
   },
   {
+  "section": "Groups",
+  "question": "How do I add members to a group?",
+  "answer": "Only admins can add members. Go to the group, tap More, then tap Invite Code to get the group's invite code. Share it with the person you want to add - they enter the code via Add Group > Join Group, and they're added automatically."
+  },
+  {
     "section": "Groups",
     "question": "What information is shown for each group in the list?",
     "answer": "Each group card shows the group name, your role (admin or member), the group description, number of members, and unread message count."
