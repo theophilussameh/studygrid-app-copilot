@@ -2,8 +2,9 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import os
 
-from ingest import load_faq_data, build_index
+from ingest import load_faq_data
 from retriever import Retriever
+from prompts import INSTRUCTIONS, USER_PROMPT_TEMPLATE
 from agent import GridMindAgent
 
 load_dotenv()
@@ -14,11 +15,11 @@ openai_client = OpenAI(
 )
 
 documents = load_faq_data()
-index = build_index(documents)
 
 retriever = Retriever(
-    index=index,
-    openai_client=openai_client
+    documents=documents,
+    instructions=INSTRUCTIONS,
+    prompt_template=USER_PROMPT_TEMPLATE,
 )
 
 agent = GridMindAgent(
@@ -26,4 +27,3 @@ agent = GridMindAgent(
     openai_client=openai_client,
     model="openai/gpt-oss-20b"
 )
-

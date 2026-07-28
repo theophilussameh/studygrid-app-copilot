@@ -7,8 +7,10 @@ requires-python = ">=3.12"
 dependencies = [
     "jupyter>=1.1.1",
     "minsearch>=0.2.0",
+    "numpy>=2.4.6",
     "openai>=2.44.0",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
+    "sentence-transformers>=5.6.1",
     "sqlitesearch>=0.3.0",
 ]
