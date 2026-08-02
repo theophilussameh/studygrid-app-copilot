@@ -1,170 +1,204 @@
 [
   {
+    "id": 1,
     "section": "Getting Started",
     "question": "What is StudyGrid?",
     "answer": "StudyGrid is a mobile app that combines group chat, class materials, shared and personal to-do lists, and smart notifications — all in one place for students."
   },
   {
+    "id": 2,
     "section": "Getting Started",
     "question": "How do I create an account?",
     "answer": "Open StudyGrid and tap Sign Up. Enter your name, email, phone number, and password to create your account."
   },
   {
+    "id": 3,
     "section": "Getting Started",
     "question": "What information do I need to register?",
     "answer": "You need your name, email address, phone number, and a password."
   },
   {
+    "id": 4,
     "section": "Getting Started",
     "question": "What do I see after logging in?",
     "answer": "After logging in you land on the Groups screen, which shows a welcome banner with your unread message count, a search bar, and a list of your groups. The bottom navigation has 5 tabs: Home, To-Do, Groups, Alerts, and Settings."
   },
   {
+    "id": 5,
     "section": "Groups",
     "question": "How do I create a new group?",
     "answer": "Tap the Add Group button on the Groups screen. Choose 'Create New Group', then enter the group name and description. You can add a cover image later."
   },
   {
+    "id": 6,
     "section": "Groups",
     "question": "How do I join an existing group?",
     "answer": "Tap Add Group and choose 'Join Group'. Enter the invite code shared by the group admin to join."
   },
   {
+    "id": 7,
     "section": "Groups",
     "question": "What is the invite code?",
     "answer": "The invite code is a unique code generated for each group. The admin can find it under More > Invite Code and share it with others to let them join the group."
   },
   {
-  "section": "Groups",
-  "question": "How do I add members to a group?",
-  "answer": "Only admins can add members. Go to the group, tap More, then tap Invite Code to get the group's invite code. Share it with the person you want to add - they enter the code via Add Group > Join Group, and they're added automatically."
+    "id": 8,
+    "section": "Groups",
+    "question": "How do I add members to a group?",
+    "answer": "Only admins can add members. Go to the group, tap More, then tap Invite Code to get the group's invite code. Share it with the person you want to add - they enter the code via Add Group > Join Group, and they're added automatically."
   },
   {
+    "id": 9,
     "section": "Groups",
     "question": "What information is shown for each group in the list?",
     "answer": "Each group card shows the group name, your role (admin or member), the group description, number of members, and unread message count."
   },
   {
+    "id": 10,
     "section": "Groups",
     "question": "What tabs are inside a group?",
     "answer": "Each group has 4 tabs: Chat, Files, To-Do, and More."
   },
   {
+    "id": 11,
     "section": "Groups",
     "question": "What is in the More tab inside a group?",
     "answer": "The More tab has two sections. Admin Tools (visible to admins only): Edit Group Details, Add Members, Invite Code. General (visible to everyone): Members list, Notifications Settings, and Leave Group."
   },
   {
+    "id": 12,
     "section": "Groups",
     "question": "How do I leave a group?",
     "answer": "Go to the group, tap More, then tap Leave Group."
   },
   {
+    "id": 13,
     "section": "Groups",
     "question": "What are the roles in a group?",
     "answer": "There are two roles: Admin and Member. Admins can edit group details, add members, upload files, manage tasks, and access the invite code. Members can chat, view files, and track tasks assigned to them."
   },
   {
+    "id": 14,
     "section": "Groups",
     "question": "Can a group have more than one admin?",
     "answer": "Yes, a group can have multiple admins."
   },
   {
+    "id": 15,
     "section": "Groups",
     "question": "How do I edit group details?",
     "answer": "Only admins can edit group details. Go to More > Edit Group Details to change the group name, description, or cover image."
   },
   {
+    "id": 16,
     "section": "Chat",
     "question": "What can I send in the group chat?",
     "answer": "You can send text messages, images, voice messages, and files in the group chat."
   },
   {
+    "id": 17,
     "section": "Chat",
     "question": "Can all members send messages in the chat?",
     "answer": "Yes, all group members including admins and regular members can send messages in the chat."
   },
   {
+    "id": 18,
     "section": "Chat",
     "question": "Will I get notified about new messages?",
     "answer": "Yes, you will receive a push notification when someone sends a new message in your group."
   },
   {
+    "id": 19,
     "section": "Files",
     "question": "Who can upload files to a group?",
     "answer": "Only admins can upload files to the group."
   },
   {
+    "id": 20,
     "section": "Files",
     "question": "What file types can be uploaded?",
     "answer": "Admins can upload PDF, DOC, PPT, images, and video files."
   },
   {
+    "id": 21,
     "section": "Files",
     "question": "Can members download files?",
     "answer": "Yes, all group members can view and download files uploaded by the admin."
   },
   {
+    "id": 22,
     "section": "Files",
     "question": "Will I get notified when a new file is uploaded?",
     "answer": "Yes, you will receive a notification when a new file is uploaded to your group."
   },
   {
+    "id": 23,
     "section": "Group To-Do",
     "question": "Who can add tasks in the group To-Do?",
     "answer": "Only admins can add, edit, or delete group tasks."
   },
   {
+    "id": 24,
     "section": "Group To-Do",
     "question": "What can a member do with group tasks?",
     "answer": "Members can only view and track tasks assigned to them. They cannot add, edit, or delete tasks."
   },
   {
+    "id": 25,
     "section": "Group To-Do",
     "question": "Can the admin assign a task to a specific member?",
     "answer": "Yes, admins can assign tasks to specific group members."
   },
   {
+    "id": 26,
     "section": "Group To-Do",
     "question": "What priority levels are available for group tasks?",
     "answer": "Tasks can be set to Low, Medium, or High priority."
   },
   {
+    "id": 27,
     "section": "Group To-Do",
     "question": "Will I get notified when a task is assigned to me?",
     "answer": "Yes, you will receive a notification when a new task is assigned to you."
   },
   {
+    "id": 28,
     "section": "Personal To-Do",
     "question": "What is the Personal To-Do?",
     "answer": "The Personal To-Do is a private task manager only visible to you. It is completely separate from group tasks."
   },
   {
+    "id": 29,
     "section": "Personal To-Do",
     "question": "What can I do in my Personal To-Do?",
     "answer": "You can add private tasks, set priority (Low, Medium, High), set a due date, update the task status, and add subtasks to any task."
   },
   {
+    "id": 30,
     "section": "Personal To-Do",
     "question": "Can other members see my personal tasks?",
     "answer": "No. Personal tasks are completely private and only visible to you."
   },
   {
+    "id": 31,
     "section": "Personal To-Do",
     "question": "What is a subtask?",
     "answer": "A subtask is a smaller step inside a personal task. You can break down any task into multiple subtasks to track progress better."
   },
   {
+    "id": 32,
     "section": "Notifications",
     "question": "What types of notifications does StudyGrid send?",
     "answer": "StudyGrid sends three types of notifications: new chat messages in your groups, new files uploaded to your groups, and new tasks assigned to you."
   },
   {
+    "id": 33,
     "section": "Notifications",
     "question": "Where can I see all my notifications?",
     "answer": "All notifications appear in the Alerts tab in the bottom navigation bar."
   },
   {
+    "id": 34,
     "section": "Notifications",
     "question": "Can I control which notifications I receive?",
     "answer": "Yes. Go to a group, tap More, then Notifications Settings to control notifications for that group."
