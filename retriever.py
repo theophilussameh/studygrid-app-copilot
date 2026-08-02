@@ -30,9 +30,21 @@ class Retriever:
         # previous run — open it as-is, no need to re-embed anything.
         index_already_built = os.path.exists(db_path)
 
+        # NOTE: mode="lsh" (the sqlitesearch default) hashes vectors into
+        # ~65k buckets (hash_size=16, n_tables=8). With only a few dozen
+        # documents, most buckets end up empty or hold a single vector,
+        # so search() can silently return 0-4 results instead of the
+        # requested num_results even when a relevant document exists.
+        # We use IVF with a single cluster instead: every document lands
+        # in that one cluster, so search always compares the query
+        # against the full corpus (exact cosine similarity reranking),
+        # giving consistent, correct top-k results. This is only
+        # appropriate because our corpus is tiny (dozens of documents);
+        # revisit if the FAQ grows into the thousands.
         self.index = VectorSearchIndex(
             keyword_fields=list(keyword_fields),
-            mode="lsh",          # fine for our dataset size (dozens–low thousands)
+            mode="ivf",
+            n_clusters=1,
             db_path=db_path,
         )
 
