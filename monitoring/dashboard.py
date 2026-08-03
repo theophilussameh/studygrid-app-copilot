@@ -11,7 +11,13 @@ from dataclasses import asdict
 import pandas as pd
 import streamlit as st
 
-from monitoring.db_query import get_conversations, get_stats
+from monitoring.db_query import (
+    get_conversations,
+    get_stats,
+    get_relevance_stats,
+    get_user_feedback_stats,
+    get_judge_cost,
+)
 
 st.set_page_config(page_title="GridMind Dashboard", page_icon="📊")
 st.title("GridMind Dashboard")
@@ -53,3 +59,17 @@ for record in recent:
         f"💰 ${record.cost:.4f}"
     )
     st.divider()
+
+st.subheader("Judge relevance")
+relevance = get_relevance_stats()
+if relevance:
+    st.bar_chart(relevance)
+else:
+    st.info("لسه مفيش أحكام من الـ judge.")
+st.caption(f"Total judge cost so far: ${get_judge_cost():.4f}")
+
+st.subheader("User feedback")
+thumbs_up, thumbs_down = get_user_feedback_stats()
+col1, col2 = st.columns(2)
+col1.metric("👍 Thumbs up", thumbs_up)
+col2.metric("👎 Thumbs down", thumbs_down)

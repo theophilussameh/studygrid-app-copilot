@@ -12,6 +12,8 @@ import streamlit as st
 
 from config import agent
 from monitoring.db_save import save_conversation
+from monitoring.db_feedback import save_feedback
+from monitoring.judge import evaluate_relevance
 
 st.set_page_config(page_title="GridMind", page_icon="🎓")
 st.title("GridMind — StudyGrid Assistant")
@@ -25,11 +27,30 @@ st.title("GridMind — StudyGrid Assistant")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-for msg in st.session_state.messages:
+# One shared function, used both for past messages and the one we
+# just answered — key_suffix must be unique per button on the page,
+# or Streamlit throws a DuplicateWidgetID error on rerun.
+def render_feedback_buttons(conversation_id, key_suffix):
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("👍", key=f"up_{key_suffix}"):
+            save_feedback(conversation_id, "user", score=1)
+            st.toast("شكرًا على رأيك!")
+    with col2:
+        if st.button("👎", key=f"down_{key_suffix}"):
+            save_feedback(conversation_id, "user", score=-1)
+            st.toast("شكرًا، هنحاول نحسّن الإجابة.")
+
+
+for i, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
         if msg["role"] == "assistant" and "metrics" in msg:
             st.caption(msg["metrics"])
+        if msg["role"] == "assistant" and msg.get("relevance"):
+            st.caption(f"🧑‍⚖️ Judge: {msg['relevance']}")
+        if msg["role"] == "assistant" and msg.get("conversation_id"):
+            render_feedback_buttons(msg["conversation_id"], key_suffix=f"hist_{i}")
 
 question = st.chat_input("اسأل حاجة عن StudyGrid...")
 
@@ -54,9 +75,23 @@ if question:
 
         conversation_id = save_conversation(record)
 
+        # NOTE (same caveat as the lesson): this runs inline, so it adds
+        # a real LLM call's worth of latency and cost to every question.
+        # In production you'd return the answer first and judge it in
+        # the background, or sample only a fraction of questions.
+        relevance, explanation, judge_cost = evaluate_relevance(question, answer)
+        save_feedback(
+            conversation_id, "judge",
+            relevance=relevance, explanation=explanation, cost=judge_cost,
+        )
+        st.caption(f"🧑‍⚖️ Judge: {relevance}")
+
+        render_feedback_buttons(conversation_id, key_suffix=f"new_{conversation_id}")
+
     st.session_state.messages.append({
         "role": "assistant",
         "content": answer,
         "metrics": metrics_line,
         "conversation_id": conversation_id,
+        "relevance": relevance,
     })
