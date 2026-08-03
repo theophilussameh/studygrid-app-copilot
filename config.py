@@ -5,7 +5,7 @@ import os
 from ingest import load_faq_data
 from retriever import Retriever
 from prompts import INSTRUCTIONS, USER_PROMPT_TEMPLATE
-from agent import GridMindAgent
+from monitoring.metrics import GridMindAgentWithMetrics
 
 load_dotenv()
 
@@ -22,7 +22,7 @@ retriever = Retriever(
     prompt_template=USER_PROMPT_TEMPLATE,
 )
 
-agent = GridMindAgent(
+agent = GridMindAgentWithMetrics(
     retriever=retriever,
     openai_client=openai_client,
     model="openai/gpt-oss-20b"

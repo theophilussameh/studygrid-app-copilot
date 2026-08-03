@@ -1,171 +1,171 @@
 question,document
-How can I use the group chat feature on StudyGrid?,1
-Where can I access my class materials within the app?,1
-Can I create both shared and personal to-do lists in StudyGrid?,1
-What kind of smart notifications does StudyGrid send?,1
-Is StudyGrid suitable for all kinds of students?,1
-How do I create a new account on StudyGrid?,2
-Where can I find the Sign Up button after opening the StudyGrid app?,2
-What personal details are required when signing up for StudyGrid?,2
-Do I need to enter a phone number to create a StudyGrid account?,2
-Is the password field mandatory when creating a StudyGrid account?,2
-What information is required when creating an account?,3
-Which details must I enter to register?,3
-Do I need to provide my name and email during sign-up?,3
-Is a phone number necessary for registration?,3
-Do I have to create a password when signing up?,3
-Which screen do I land on after logging in?,4
-Where can I see my unread message count?,4
-Is there a search bar to find specific groups?,4
-What tabs are present in the bottom navigation?,4
-Does the screen show a list of all my groups?,4
-How do I create a new group?,5
-Which button do I need to tap to start making a new group?,5
-"After pressing the Add Group button, what should I do next?",5
-Do I need to fill in a group description when I create it?,5
-Can I set a cover image for the group after creating it?,5
-How can I join an existing group on StudyGrid?,6
-Where do I go to enter the invite code for a group?,6
-What is required for me to become a member of a group?,6
-Who should I ask for the invite code if I want to join a group?,6
-Do I need an invite code from the group admin to join a group?,6
-Where can I locate the invite code for my group?,7
-How do I share the invite code with someone else?,7
-What does the invite code do?,7
-Is the invite code unique for each group?,7
-Can I change the invite code if I want to?,7
-Can I add members if I am not an admin?,8
-Where can I get the group's invite code?,8
-What steps should I follow to share the invite code?,8
-How does a new person join the group using the invite code?,8
-What happens automatically when the code is entered?,8
-How do I know if I'm an admin or just a member of a group?,9
-Where can I see the name of a group?,9
-Is there a place where I can read a group's description?,9
-How do I find out how many people are in a group?,9
-Can I see how many unread messages a group has in the list?,9
-Which tabs can I find in a group?,10
-Where can I chat with other members in a group?,10
-How do I access the files shared within a group?,10
-Which tab lets me keep track of tasks in a group?,10
-What is the purpose of the More tab in a group?,10
-What items appear under Admin Tools in the More tab?,11
-Which group members can see the Invite Code in the More tab?,11
-What general options do all group members have in the More tab?,11
-How can I exit a group from the More tab?,11
-Where can I view the group members list via the More tab?,11
-What steps do I need to take to leave a group?,12
-Where can I find the leave option for a group?,12
-Which button should I press to exit a group?,12
-How do I confirm that I've left a group?,12
-Is it possible to leave a group directly from its main screen?,12
-What are the two roles available in a group?,13
-What can an Admin do within a group?,13
-What are the limitations of a Member in terms of editing group details?,13
-Can a Member upload files or manage tasks?,13
-What actions are allowed for a Member to track tasks assigned to them?,13
-Is it possible for a group to have multiple admins?,14
-Can more than one person serve as admin in a group?,14
-Can I add multiple admins to a single group?,14
-Can a group have several administrators at once?,14
-Does a group allow more than one admin?,14
-Who is allowed to modify group information?,15
-What steps can I take to rename or update a group's description?,15
-"Is it possible to change the cover image for a group, and how would I do that?",15
-Where do I find the option to edit a group's name or details?,15
-"Can regular members change group settings, or is this restricted to admins?",15
-What kinds of messages can I send to the group chat?,16
-Can I attach photos in the group chat?,16
-Is it possible to send voice notes in the group chat?,16
-What files can be shared in the group chat?,16
-Can I send text messages in the group chat?,16
-Is it possible for every person in our group to post messages?,17
-Can a non-admin member send messages in the chat?,17
-Do admins have exclusive sending rights in the chat?,17
-Are regular members allowed to chat with others?,17
-Who is allowed to send messages in the StudyGrid chat?,17
-Will I get a notification when there's a new message?,18
-Do I receive push alerts for new messages in my group?,18
-What happens if someone posts a new message in my group?,18
-How do I know when there’s a new message?,18
-Will I be notified about new group messages?,18
+Can you tell me what StudyGrid actually does for students?,1
+Is StudyGrid just a chat app or does it have other tools?,1
+What kind of features are included in the StudyGrid mobile app?,1
+Does StudyGrid handle class materials and to‑do lists together?,1
+How does StudyGrid keep me notified about school stuff?,1
+Can you walk me through the steps to sign up for StudyGrid?,2
+What information do I need to provide when creating a StudyGrid account?,2
+Where do I find the Sign Up button in the app?,2
+Do I need a phone number to register on StudyGrid?,2
+"Is there a specific order for entering my name, email, and password during sign‑up?",2
+What details do I need to provide when I sign up?,3
+Do I have to enter a phone number to create an account?,3
+Is a password mandatory for registration?,3
+What personal information is collected during sign‑up?,3
+Can I register using only my email and name?,3
+What does the screen look like right after I log in?,4
+Where can I find my unread messages when I first open the app?,4
+Is there a search function on the initial page after logging in?,4
+What navigation tabs are available at the bottom of the app on startup?,4
+How are my groups displayed on the first screen I see?,4
+Where can I find the Add Group button to start a new group?,5
+What do I need to fill in when I choose 'Create New Group'?,5
+Can I add a cover image after I've created the group?,5
+Is the group description required when I'm creating a new group?,5
+How do I actually create a new group from the Groups screen?,5
+What's the process to join a group I was invited to?,6
+Where do I find the option to add or join a group in the app?,6
+"Do I need an invite code to join a group, and where do I enter it?",6
+How do I use the 'Join Group' button after tapping Add Group?,6
+"Can I join a group if I only have the admin's invite code, and what steps do I follow?",6
+How can I locate the invite code for my group?,7
+Where is the invite code located in the app?,7
+Who is able to share the invite code with others?,7
+Is the invite code unique for each group or the same across groups?,7
+Can I use the invite code to let people join my group?,7
+"Can only admins add people to a group, or can members do it too?",8
+Where do I find the invite code for my group?,8
+How do I share the group invite code with someone?,8
+What steps does someone need to take to join using the invite code?,8
+"Do I need to approve the person after they enter the code, or are they added automatically?",8
+"When I look at the list of groups, what details are displayed on each card?",9
+"Can you tell me what info appears next to the group name, like my role or members count?",9
+What does the group tile show regarding unread messages?,9
+Is the group description visible in the group overview list?,9
+Do I see how many people are in a group directly from the group list?,9
+What tabs are available when I view a group?,10
+Does each group include a chat section?,10
+Is there a tab for managing files inside a group?,10
+Can I find a to‑do list tab within a group?,10
+"Is there an extra ""More"" tab in every group?",10
+What options does the More tab show for admins?,11
+Can regular members see the Edit Group Details option?,11
+How do I find the Invite Code in the More tab?,11
+What can I do in the General section of the More tab?,11
+Is there a way to leave the group from the More tab?,11
+What's the steps to exit a group?,12
+How can I get out of a group I'm in?,12
+"I want to leave a group, how do I do that?",12
+Can I quit a group from the app?,12
+Where do I find the option to leave a group?,12
+What actions can an admin perform in a group?,13
+Are members able to upload files in a group?,13
+Can group members see the invite code?,13
+What are the differences between the admin and member roles?,13
+How many roles exist in a group and what are they called?,13
+Can I add more than one admin to a group?,14
+Is it possible for a group to have several admins?,14
+Do groups support multiple admins?,14
+How many admins can a single group have?,14
+Can I assign admin rights to multiple members in a group?,14
+Who is allowed to change the group information?,15
+Where can I find the option to modify my group's settings?,15
+Can I update the group's picture and description?,15
+What steps do I need to follow to edit my group's name?,15
+Is it possible for a regular member to edit group details?,15
+Can I share pictures in the group chat?,16
+Are voice messages allowed in the group chat?,16
+Is it possible to send files through the group chat?,16
+What types of messages can I post in a group chat?,16
+"Can I only send text, or are other media supported in group chats?",16
+"Can regular members post messages in the group chat, or is it only for admins?",17
+Are there any members who are blocked from sending messages in the chat?,17
+Do admins have any extra chat privileges beyond just sending messages?,17
+Is it possible for a group member to be unable to send a message for any reason?,17
+"Does everyone in the group, including admins and regular users, have the ability to chat?",17
+Do I get a push notification whenever someone posts a new message in my group?,18
+Will I be alerted when a new message arrives in my group chat?,18
+Can I expect to receive notifications for new group messages?,18
+How will I know if there's a new message in my group?,18
+Is there a notification that pops up when a group member sends a message?,18
 Can regular members upload files to a group?,19
-Is uploading files limited to admins?,19
-What permissions are required to upload files?,19
-Can anyone upload files to a group?,19
-Who has the ability to add files to the group?,19
-Which file formats can administrators upload?,20
-Is uploading PDFs allowed in the admin panel?,20
-Can I add image or video files as an administrator?,20
-What file types are accepted for upload?,20
-Can PowerPoint or Word documents be uploaded by admins?,20
-Can members download files uploaded by the admin?,21
-Do all group members have permission to download files?,21
-Are group members able to view and download the files?,21
-Can any member download the files that the admin uploads?,21
-Is it possible for members to download files that the admin has added?,21
-What type of notification will I get when a new file is added to the group?,22
-Will I receive an email or a pop-up when a file is uploaded to the group?,22
-Can I customize how I get notified when a new file appears in my group?,22
-Will I be notified if someone uploads a file that I’m not following?,22
-"Do I get a notification for every new file upload in the group, or only for certain types?",22
-Who can add tasks in a group To-Do?,23
-Can regular members add tasks in a group To-Do?,23
-Who can edit or delete tasks in a group To-Do?,23
-Can non-admins manage group tasks?,23
-"Which roles can add, edit, or delete group tasks?",23
-Can members add new tasks to a group?,24
+Is uploading files limited to admins only?,19
+Who is allowed to add files in a group?,19
+Do only admins have permission to upload group files?,19
+Can a non-admin user upload files to the group?,19
+What file formats can admins upload?,20
+Can admins upload video files?,20
+Are image files supported for admin uploads?,20
+Do admins also upload DOC and PPT files?,20
+Is PDF included in the allowed upload types for admins?,20
+Can I download files that the admin uploaded?,21
+Do all members have permission to view and download files?,21
+Is downloading files limited to admins only?,21
+What can group members do with files uploaded by the admin?,21
+Are files uploaded by the admin accessible for download by members?,21
+Will I be notified when a new file is uploaded to my group?,22
+Do I receive an alert every time someone uploads a file?,22
+Can I get a notification for each new file added in the group?,22
+Is there a notification sent when a new file appears in my group?,22
+Will the system inform me when a new file is uploaded?,22
+Who can add tasks in the group To‑Do?,23
+Can regular members add tasks in the group To‑Do?,23
+Who is allowed to edit or delete group tasks?,23
+Are only admins able to modify group tasks?,23
+What permissions do admins have for the group To‑Do?,23
+Can members add new tasks in a group to‑do list?,24
 Are members allowed to edit tasks that are assigned to them?,24
-Can group members delete tasks assigned to them?,24
-What actions can a member perform on a group task?,24
-Can members change the status of tasks assigned to them?,24
-Can admins assign tasks to individual members?,25
-Are administrators allowed to give tasks to specific group participants?,25
-Do admins have the option to designate a particular member for a task?,25
-Can a group admin set a task for one specific person?,25
-Is it possible for an admin to assign a task to a single group member?,25
-Which priority levels can I assign to a group task?,26
-How do I set the priority level for a group task?,26
-"Can I assign a priority other than Low, Medium, or High to a group task?",26
-What does High priority mean for a group task?,26
-Is it possible to change a group task's priority after creation?,26
-Will I get an alert when a task is given to me?,27
-"If someone assigns me a task, will I be notified?",27
-Will I receive a message when a new assignment comes?,27
-Does the system pop up a warning when I get a task?,27
-Is there a way for me to see when a task is added to my list?,27
-Will my teammates have access to the Personal To-Do?,28
-Does the Personal To-Do appear on the group task list?,28
-Can I see the Personal To-Do while I'm in a group project?,28
-Is the Personal To-Do hidden from anyone else on my team?,28
-Is the Personal To-Do the same as group tasks or a separate tool?,28
-How do I add a new task to my personal to-do list?,29
-What options are available to set a task's priority?,29
-Can I specify a due date for a task?,29
-How can I change the status of a task?,29
-Is it possible to create subtasks under an existing task?,29
-Are my personal tasks viewable by others on the platform?,30
-Can teammates access my to‑do list items?,30
-Will anyone else see the tasks I add to my personal board?,30
-Is there any way to share a personal task with another member?,30
-Do personal tasks show up in the group’s task overview?,30
-What exactly is a subtask?,31
-How can I add a subtask to my main task?,31
-Can I have multiple subtasks for one task?,31
-What are the benefits of using subtasks?,31
-Do subtasks appear as separate items in my task list?,31
-How do I know when someone sends me a chat message in my group?,32
-Will I get an alert when new files are uploaded to my group?,32
-Can I be notified when a task is assigned to me?,32
-"Are there other types of notifications besides chats, files, and tasks?",32
-What happens if I miss a notification about a new file?,32
-How can I find the list of all my notifications in the app?,33
-Which tab should I open to see my alerts?,33
-Is there a place in the app where I can view all my recent notifications?,33
-Can I access my notifications from a different navigation area?,33
-What should I click to view my notification list?,33
-How do I control notifications for a specific group?,34
-Where can I find the option to turn off or change notifications in a group?,34
-"If I want to stop seeing alerts for a particular group, what steps should I follow?",34
-Which menu do I need to access to modify the notification settings of a group?,34
-Is there a way to adjust the notification settings for a group I belong to?,34
+Do members have permission to delete group tasks?,24
+What can members actually do with tasks that are assigned to them in a group?,24
+Is it possible for a member to see tasks that aren't assigned to them?,24
+Can an admin give a task directly to one member of the group?,25
+Is it possible for the group admin to assign a task to a particular person?,25
+Do admins have the option to target a specific member when creating a task?,25
+"Can I, as admin, assign a task only to John in the group?",25
+Are admins allowed to assign tasks to individual members rather than the whole group?,25
+Can I assign different priority levels to group tasks?,26
+What are the priority options for tasks in a group?,26
+Is there a High priority setting for group to-dos?,26
+How do I set a task to Medium priority in a group?,26
+"Are there only three priority levels for group tasks, like Low, Medium, and High?",26
+Will I get a notification when a new task is assigned to me?,27
+Do I receive alerts if someone adds a task to my list?,27
+Can I expect a pop‑up when a task is assigned to me?,27
+Will the system let me know when a task shows up for me?,27
+Am I notified automatically when I'm assigned a new task?,27
+Can you explain what the Personal To-Do feature actually does?,28
+Is the Personal To-Do list visible to anyone else besides me?,28
+How is the Personal To-Do different from the group task list?,28
+Does the Personal To-Do share any data with my group's tasks?,28
+Is the Personal To-Do a separate space from my other tasks?,28
+How do I add a private task in Personal To‑Do?,29
+Can I change the priority of a task and what levels are available?,29
+Is it possible to set a due date for a task?,29
+How can I mark a task as completed or update its status?,29
+Can I break a task into smaller steps or add subtasks?,29
+Can other members view my personal tasks in the app?,30
+Are my personal to‑do items visible to anyone else on my team?,30
+Is there any way someone else could see the tasks I marked as personal?,30
+Do personal tasks show up for other users in their dashboards?,30
+Will my personal tasks be hidden from all other members?,30
+Can I split a task into smaller parts?,31
+What does a subtask do?,31
+How do subtasks help track progress?,31
+Is it possible to add multiple subtasks to a personal task?,31
+Why should I break a task into subtasks?,31
+What kinds of alerts does StudyGrid send me?,32
+Do I get a notification when someone posts a new chat message in my group?,32
+Will I be notified if a new file is uploaded to one of my groups?,32
+Are there alerts for tasks that get assigned to me?,32
+How many different notification types are there in StudyGrid?,32
+How do I find all my notifications in the app?,33
+Where is the Alerts section located?,33
+Which tab shows my notification list?,33
+Can I view notifications from the bottom navigation?,33
+Is there a specific place to see every alert?,33
+How can I change the notifications I get for a specific group?,34
+Where do I find the notification settings for a group?,34
+Can I turn off certain alerts for a group in StudyGrid?,34
+What's the steps to manage group notifications?,34
+Is there a way to control which notifications I receive per group?,34
